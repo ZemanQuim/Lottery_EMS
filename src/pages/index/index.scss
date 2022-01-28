@@ -1,0 +1,120 @@
+.wish_video {
+  position: relative;
+  width: 100%;
+  background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/wish_video11.png')
+    no-repeat top center/100%;
+  padding-top: 110px;
+  padding-bottom: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .logo_wrap {
+    width: 88px;
+    height: 88px;
+    // margin-left: 330px;
+    .logo {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+  .dec00 {
+    position: relative;
+    width: 462px;
+    height: 156px;
+    // margin-left: 144px;
+    margin-top: 10px;
+    padding-top: 30px;
+    background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/wish_video9.png')
+      no-repeat top center/100%;
+    .dec01 {
+      width: 380px;
+      height: 92px;
+      margin-left: 42px;
+    }
+    .dec02 {
+      width: 324px;
+      height: 58px;
+      position: absolute;
+      left: 66px;
+      top: 124px;
+      background-color: #5386a3;
+      border: 6px solid #f8e4bf;
+      border-radius: 24px;
+      font-size: 28px;
+      color: #ffe9c4;
+      text-align: center;
+    }
+  }
+  .notice {
+    width: 480px;
+    font-size: 28px;
+    color: #f8f4da;
+    text-align: center;
+    // margin-left: 132px;
+    margin-top: 54px;
+  }
+  .dec03 {
+    width: 378px;
+    height: 52px;
+    line-height: 52px;
+    background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/wish_video10.png')
+      no-repeat top center/100%;
+    // margin-left: 188px;
+    margin-top: 22px;
+    font-size: 28px;
+    color: #fcde1e;
+    text-align: center;
+  }
+  .video {
+    width: 654px;
+    height: 506px;
+    margin-top: 30px;
+    background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/wish_video13.png')
+      no-repeat top center/100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 14px;
+    position: relative;
+    z-index: 99;
+    .head {
+      font-size: 28px;
+      color: #ffffff;
+      line-height: 40px;
+    }
+    .video0 {
+      width: 604px;
+      height: 350px;
+      margin-top: 48px;
+    }
+    .taro-video-container {
+      position: relative;
+      z-index: 99;
+    }
+    .tip {
+      font-size: 24px;
+      color: #c50e10;
+      text-align: center;
+      line-height: 58px;
+    }
+  }
+  .skip {
+    background-color: #333;
+    padding: 0 16px;
+    margin-top: 14px;
+    border-radius: 8px;
+    color: #fff;
+    position: relative;
+    z-index: 111;
+  }
+  .dec04 {
+    width: 100%;
+    height: 530px;
+    position: absolute;
+    bottom: 0;
+    background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/wish_video12.png')
+      no-repeat top center/100%;
+    z-index: 1;
+  }
+}

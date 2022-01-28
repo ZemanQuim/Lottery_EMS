@@ -1,0 +1,201 @@
+.detail {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/detail4.png')
+    no-repeat top center/100%;
+  padding-top: 526px;
+  padding-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .logoPng {
+    position: absolute;
+    top: 24px;
+    left: 331px;
+    width: 88px;
+    height: 88px;
+  }
+  .lucky {
+    width: 426px;
+    height: 404px;
+    position: relative;
+    .lucky_bag {
+      width: 426px;
+      height: 404px;
+    }
+    .switchPng {
+      width: 244px;
+      height: 248px;
+      position: absolute;
+      top: 102px;
+      left: 86px;
+    }
+    .handPng {
+      width: 241px;
+      height: 258px;
+      position: absolute;
+
+      animation: move 0.5s linear infinite alternate;
+    }
+  }
+  .notice {
+    width: 504px;
+    height: 72px;
+    background-color: #cf0200;
+    border-radius: 36px;
+    line-height: 72px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 68px;
+  }
+  .see_record {
+    width: 676px;
+    height: 94px;
+    display: block;
+    margin-top: 78px;
+  }
+  .direction {
+    width: 686px;
+    background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/detail3.png')
+      no-repeat;
+    background-size: 100% 100%;
+    margin-top: 24px;
+    text-align: center;
+    padding: 20px 40px;
+    .title {
+      width: 224px;
+      height: 206px;
+      display: block;
+      margin: 0 auto;
+    }
+    .awards {
+      text-align: center;
+      font-size: 28px;
+      color: #b6261a;
+    }
+    .tips {
+      font-size: 20px;
+      text-align: center;
+      color: #4b1425;
+      margin: 10px 0;
+    }
+  }
+  .taroify-popup {
+    background: rgba(0, 0, 0, 0);
+  }
+  .popup {
+    position: relative;
+    width: 566px;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      font-size: 44px;
+      color: #fe3a3a;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 280px;
+    }
+    .award {
+      font-size: 36px;
+      color: #333333;
+      text-align: center;
+      margin-top: 36px;
+    }
+    .blessing {
+      position: relative;
+      width: 494px;
+      height: 214px;
+      border-radius: 34px;
+      border: 4px solid #fdc486;
+      background-color: #fee5c3;
+      margin-top: 66px;
+      .line {
+        width: 420px;
+        height: 0;
+        border-top: 1px solid #fdc486;
+        margin: 40px auto;
+      }
+      .fz28 {
+        width: 280px;
+        text-align: center;
+        color: #a45216;
+        font-size: 28px;
+        position: absolute;
+        top: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fee5c3;
+      }
+      .text {
+        font-size: 24px;
+        color: #a45216;
+        padding: 0 18px;
+      }
+    }
+    .close_btn {
+      width: 60px;
+      height: 60px;
+      background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/close.png')
+        no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 800px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 99999;
+    }
+  }
+  .suceess {
+    background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/success.png')
+      no-repeat top center/100%;
+  }
+  .fail {
+    background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/fail.png')
+      no-repeat top center/100%;
+  }
+  .pop_bg {
+    width: 750px;
+    height: 874px;
+    padding-top: 260px;
+    background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/pop_bg.png')
+      no-repeat top center/100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .wrap {
+      width: 100%;
+      height: 450px;
+      text-align: center;
+      overflow-y: scroll;
+      p {
+        color: #ff4c29;
+      }
+    }
+    .close {
+      width: 300px;
+      height: 80px;
+      background-color: #faffe3;
+      line-height: 80px;
+      text-align: center;
+      font-size: 32px;
+      color: #fd002e;
+      border-radius: 40px;
+      margin-top: 50px;
+    }
+  }
+}
+
+@keyframes move {
+  from {
+    right: -70px;
+    top: 240px;
+  }
+  to {
+    right: -30px;
+    top: 180px;
+  }
+}

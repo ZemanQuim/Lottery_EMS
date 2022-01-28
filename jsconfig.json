@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/servers": ["./src/servers/*"],
+      "@/assets": ["./src/assets/*"],
+      "@/store": ["./src/store/*"]
+    }
+  }
+}

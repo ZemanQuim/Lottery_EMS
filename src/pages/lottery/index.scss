@@ -1,0 +1,106 @@
+.lottery_bg {
+  background-color: #fccc96;
+}
+.lottery {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/lottery2.png')
+    no-repeat top center/100%;
+  padding-top: 444px;
+  padding-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .logoPng {
+    position: absolute;
+    top: 24px;
+    left: 331px;
+    width: 88px;
+    height: 88px;
+  }
+  .wrap {
+    > :nth-of-type(1) {
+      height: 806px;
+      background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/lottery3.png')
+        no-repeat top center/100%;
+      padding-top: 124px;
+      .note {
+        margin-top: 10px;
+      }
+    }
+    > :nth-of-type(2) {
+      height: 706px;
+      background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/lottery4.png')
+        no-repeat top center/100%;
+      margin: 20px auto;
+    }
+    > :nth-of-type(3) {
+      height: 706px;
+      background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/lottery4.png')
+        no-repeat top center/100%;
+    }
+    > :nth-of-type(4) {
+      height: 706px;
+      background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/lottery4.png')
+        no-repeat top center/100%;
+    }
+    > :nth-of-type(5) {
+      height: 706px;
+      background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/lottery4.png')
+        no-repeat top center/100%;
+    }
+  }
+  .awards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 722px;
+    .session {
+      font-size: 32px;
+      color: #fff;
+      margin-top: 10px;
+    }
+    .award {
+      width: 224px;
+      height: 206px;
+      display: block;
+      margin-top: 10px;
+    }
+    .note {
+      font-size: 20px;
+      color: #b6261a;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .info {
+      margin-top: 40px;
+      width: 450px;
+      height: 120px;
+      line-height: 60px;
+      color: #b6261a;
+      font-size: 28px;
+      .top {
+        display: flex;
+        justify-content: space-between;
+        .bootom {
+          text-align: center;
+        }
+      }
+    }
+    .joinPng {
+      width: 612px;
+      height: 94px;
+      margin-top: 54px;
+      background: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/lottery1.png');
+      background-size: 100% 100%;
+      line-height: 94px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 36px;
+    }
+    .gray {
+      background-image: url('https://bengbuyouzheng.oss-cn-shanghai.aliyuncs.com/assets/lottery6.png');
+    }
+  }
+}
