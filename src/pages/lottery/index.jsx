@@ -38,15 +38,12 @@ class Index extends Component {
   };
 
   //
-  renderState = (start_time, end_time) => {
+  renderState = (end_time) => {
     const timestamp = Date.parse(new Date()) / 1000;
-    // if (start_time < timestamp) {
     if (end_time < timestamp) {
       return '已结束';
     }
     return '点击进入';
-    // }
-    // return '未开始';
   };
 
   renderColor = (item) => {
@@ -135,13 +132,10 @@ class Index extends Component {
                     <div className='bootom'>抽奖时间：{item.start_date}</div>
                   </div>
                   <div
-                    // className={classNames('joinPng', {
-                    //   gray: this.renderColor(item),
-                    // })}
                     className='joinPng'
                     onClick={() => this.goToDetail(item, index)}
                   >
-                    {this.renderState(item.start_time, item.end_time)}
+                    {this.renderState(item.end_time)}
                   </div>
                 </div>
               );
