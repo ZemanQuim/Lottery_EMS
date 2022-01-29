@@ -14,7 +14,7 @@ const giftArr = [
   '价值300元早餐机',
   '价值200元电热饭盒',
   '价值100元橄榄油',
-  '价值50元礼品1份',
+  '价值50元虎年抱枕',
 ];
 
 @inject('store')
@@ -89,11 +89,25 @@ class Index extends Component {
 
   renderNotice = (prize_type) => {
     if (prize_type && prize_type !== 6) {
-      return <div className='notice'>恭喜您获得“{awardArr[prize_type]}”</div>;
+      return (
+        <div className='notice'>
+          <p>恭喜您获得“{awardArr[prize_type]}”</p>
+          <p>请返回继续抽下一轮奖品</p>{' '}
+        </div>
+      );
     } else if (prize_type == 6) {
-      return <div className='notice'>很遗憾，未中奖。</div>;
+      return (
+        <div className='notice'>
+          <p>很遗憾，未中奖。</p>
+          <p>请返回继续抽下一轮奖品</p>
+        </div>
+      );
     } else {
-      return <div className='notice'>请点击上方福袋按钮抽取奖品</div>;
+      return (
+        <div className='notice'>
+          <p>请点击上方福袋按钮抽取奖品</p>
+        </div>
+      );
     }
   };
 

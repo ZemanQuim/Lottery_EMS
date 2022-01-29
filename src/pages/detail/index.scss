@@ -41,14 +41,15 @@
   }
   .notice {
     width: 504px;
-    height: 72px;
     background-color: #cf0200;
     border-radius: 36px;
-    line-height: 72px;
-    text-align: center;
-    color: #ffffff;
-    font-weight: 700;
     margin-top: 68px;
+    padding: 10px 0;
+    p {
+      text-align: center;
+      color: #ffffff;
+      font-weight: 700;
+    }
   }
   .see_record {
     width: 676px;
