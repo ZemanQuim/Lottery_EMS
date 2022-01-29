@@ -1,7 +1,6 @@
 import { getSession } from '@/servers/servers';
 import { Image } from '@tarojs/components';
 import Taro from '@tarojs/taro';
-import classNames from 'classnames';
 import { inject, observer } from 'mobx-react';
 import { Component } from 'react';
 import './index.scss';
